@@ -13,6 +13,8 @@ header{
     background-repeat: no-repeat;
 }
 
+
+
 li{
     display: inline-block;
 }
@@ -32,9 +34,16 @@ li>a{
     position: relative;
 }
 
+#nav-logo{
+    position: absolute;
+    left:0;
+    top:15px;
+}
+
 button{
     border-radius: 20px;
     padding: 10px;
+    border:none;
 }
 
 .nav-button{
@@ -69,4 +78,34 @@ h2{
 #download-arrow{
     font-weight: bold;
     font-size: 1.2em;
+}
+
+.section-dimensions{
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.left{
+
+    float:left;
+}
+
+.right{
+
+    float:right;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#last-section{
+    text-align: center;
+}
+
+.end-button{
+    color: white;
+    background-color: turquoise;
 }
